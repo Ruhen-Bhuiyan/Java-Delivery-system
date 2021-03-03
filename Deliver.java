@@ -68,13 +68,10 @@ public class Deliver {
 		textField = new JTextField();
 		panel_4.add(textField);
 		textField.setColumns(10);
-		
 		JPanel panel_5 = new JPanel();
 		panel_1.add(panel_5);
-		
 		JPanel panel_6 = new JPanel();
 		panel_1.add(panel_6);
-		
 		JPanel panel_2 = new JPanel();
 		frame.getContentPane().add(panel_2);
 	}
