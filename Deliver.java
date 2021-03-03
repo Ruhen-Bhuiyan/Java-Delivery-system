@@ -42,40 +42,29 @@ public class Deliver {
 			}
 		});
 		panel.add(btnNewButton_1);
-		
 		JButton btnNewButton_2 = new JButton("Product 2");
 		panel.add(btnNewButton_2);
-		
 		JButton btnNewButton = new JButton("Product 3");
 		panel.add(btnNewButton);
-		
 		JPanel panel_1 = new JPanel();
 		frame.getContentPane().add(panel_1);
 		panel_1.setLayout(new GridLayout(1, 4, 1, 1));
-		
 		JPanel panel_3 = new JPanel();
 		panel_1.add(panel_3);
-		
 		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("New check box");
 		panel_3.add(chckbxNewCheckBox_1);
-		
 		JCheckBox chckbxNewCheckBox = new JCheckBox("New check box");
 		panel_3.add(chckbxNewCheckBox);
-		
 		JCheckBox chckbxNewCheckBox_2 = new JCheckBox("New check box");
 		panel_3.add(chckbxNewCheckBox_2);
-		
 		JPanel panel_4 = new JPanel();
 		panel_1.add(panel_4);
-		
 		textField_1 = new JTextField();
 		panel_4.add(textField_1);
 		textField_1.setColumns(10);
-		
 		textField_2 = new JTextField();
 		panel_4.add(textField_2);
 		textField_2.setColumns(10);
-		
 		textField = new JTextField();
 		panel_4.add(textField);
 		textField.setColumns(10);
