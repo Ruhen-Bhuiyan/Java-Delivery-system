@@ -1,5 +1,4 @@
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import java.awt.GridLayout;
 import javax.swing.JPanel;
@@ -23,10 +22,6 @@ public class Deliver {
 	private JTextField txttotal;
 	private JTextField textField;
 	private JTextField textField_1;
-
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -39,10 +34,6 @@ public class Deliver {
 			}
 		});
 	}
-
-	/**
-	 * Create the application.
-	 */
 	public Deliver() {
 		initialize();
 	}
