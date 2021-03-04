@@ -74,7 +74,6 @@ public class Deliver {
 		chckbxNewCheckBox_1.setEnabled(false);
 		chckbxNewCheckBox_1.setBounds(23, 29, 97, 23);
 		panel_1.add(chckbxNewCheckBox_1);
-		
 		textField_1 = new JTextField();
 		textField_1.setEnabled(false);
 		textField_1.setColumns(10);
@@ -113,21 +112,17 @@ public class Deliver {
 		JLabel lblSubtotal = new JLabel("SubTotal");
 		lblSubtotal.setBounds(10, 83, 96, 14);
 		panel_2.add(lblSubtotal);
-		
 		txtsub = new JTextField();
 		txtsub.setColumns(10);
 		txtsub.setBounds(129, 80, 86, 20);
 		panel_2.add(txtsub);
-		
 		JLabel lblTotal = new JLabel("Total");
 		lblTotal.setBounds(32, 130, 46, 14);
 		panel_2.add(lblTotal);
-		
 		txttotal = new JTextField();
 		txttotal.setColumns(10);
 		txttotal.setBounds(129, 127, 86, 20);
 		panel_2.add(txttotal);
-		
 		JButton btnNewButton_3 = new JButton("Total");
 		btnNewButton_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -137,16 +132,13 @@ public class Deliver {
 				itax=String.format("%.2f",cost[2]/100);
 				isub=String.format("%.2f",cost[2]);
 				itot=String.format("%.2f",cost[2]+(cost[2]/100));
-				
 				txttax.setText(itax);
 				txtsub.setText(isub);
 				txttotal.setText(itot);
-				
 			}
 		});
 		btnNewButton_3.setBounds(129, 175, 89, 23);
 		panel_2.add(btnNewButton_3);
-		
 		JButton btnNewButton_3_2 = new JButton("Exit");
 		btnNewButton_3_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
