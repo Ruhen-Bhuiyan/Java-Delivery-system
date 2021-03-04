@@ -37,10 +37,6 @@ public class Deliver {
 	public Deliver() {
 		initialize();
 	}
-
-	/**
-	 * Initialize the contents of the frame.
-	 */
 	private void initialize() {
 		frame = new JFrame();
 		frame.addWindowListener(new WindowAdapter() {
@@ -60,7 +56,6 @@ public class Deliver {
 		textField.setBounds(171, 30, 86, 20);
 		panel_1.add(textField);
 		textField.setColumns(10);
-		
 		JCheckBox chckbxNewCheckBox_1_1 = new JCheckBox("Product 2");
 		chckbxNewCheckBox_1_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -88,7 +83,6 @@ public class Deliver {
 		JPanel panel = new JPanel();
 		frame.getContentPane().add(panel);
 		panel.setLayout(new GridLayout(10, 2, 2, 2));
-		
 		JButton btnNewButton_1 = new JButton("Product 1");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			private Component chckbxNewCheckBox;
@@ -99,7 +93,6 @@ public class Deliver {
 			}
 		});
 		panel.add(btnNewButton_1);
-		
 		JButton btnNewButton_2 = new JButton("Product 2");
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -107,20 +100,16 @@ public class Deliver {
 			}
 		});
 		panel.add(btnNewButton_2);
-		
 		JPanel panel_2 = new JPanel();
 		frame.getContentPane().add(panel_2);
 		panel_2.setLayout(null);
-		
 		JLabel lblNewLabel = new JLabel("Tax");
 		lblNewLabel.setBounds(32, 43, 46, 14);
 		panel_2.add(lblNewLabel);
-		
 		txttax = new JTextField();
 		txttax.setBounds(129, 40, 86, 20);
 		panel_2.add(txttax);
 		txttax.setColumns(10);
-		
 		JLabel lblSubtotal = new JLabel("SubTotal");
 		lblSubtotal.setBounds(10, 83, 96, 14);
 		panel_2.add(lblSubtotal);
