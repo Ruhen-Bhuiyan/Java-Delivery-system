@@ -14,12 +14,14 @@ import javax.swing.JTextField;
 import javax.swing.JTextArea;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+
 import java.awt.Component;
 public class Deliver {
 	String itax,isub,itot;
 	double[] cost=new double[22];
 	private JFrame frame;
 	private JTextField txttax;
+	
 	private JTextField txtsub;
 	private JTextField txttotal;
 	private JTextField textField;
@@ -57,6 +59,7 @@ public class Deliver {
 		textField.setEnabled(false);
 		textField.setBounds(171, 30, 86, 20);
 		panel_1.add(textField);
+		
 		textField.setColumns(10);
 		JCheckBox chckbxNewCheckBox_1_1 = new JCheckBox("Product 2");
 		chckbxNewCheckBox_1_1.addActionListener(new ActionListener() {
