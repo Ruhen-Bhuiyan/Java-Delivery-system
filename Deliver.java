@@ -18,7 +18,6 @@ public class Deliver {
 	double[] cost=new double[22];
 	private JFrame frame;
 	private JTextField txttax;
-	
 	private JTextField txtsub;
 	private JTextField txttotal;
 	private JTextField textField;
@@ -42,8 +41,7 @@ public class Deliver {
 		frame = new JFrame();
 		frame.addWindowListener(new WindowAdapter() {
 			@Override
-			public void windowActivated(WindowEvent e) {
-				
+			public void windowActivated(WindowEvent e) {		
 			}
 		});
 		frame.setBounds(100, 100, 1300, 700);
@@ -56,7 +54,6 @@ public class Deliver {
 		textField.setEnabled(false);
 		textField.setBounds(171, 30, 86, 20);
 		panel_1.add(textField);
-		
 		textField.setColumns(10);
 		JCheckBox chckbxNewCheckBox_1_1 = new JCheckBox("Product 2");
 		chckbxNewCheckBox_1_1.addActionListener(new ActionListener() {
@@ -89,7 +86,6 @@ public class Deliver {
 			private Component chckbxNewCheckBox;
 
 			public void actionPerformed(ActionEvent e) {
-
 				chckbxNewCheckBox_1.setEnabled(true);
 			}
 		});
